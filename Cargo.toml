@@ -1,0 +1,9 @@
+[package]
+name = "superintendent-quotes"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[dependencies]
+rand = "0.6.5"
+clap = "2.33.0"
