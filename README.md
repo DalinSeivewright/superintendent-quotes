@@ -1,5 +1,10 @@
 # Superintendent Quotes
 Get a random Superintendent quote.
+
+## Install
+Run `cargo install --git https://github.com/DalinSeivewright/superintendent-quotes` to install.  This is not hosted on crates.io.
+
+## Usage
 ```
 USAGE:
     superintendent-quotes [OPTIONS]
