@@ -72,7 +72,7 @@ fn get_options() -> ArgMatches<'static> {
         .takes_value(true);
 
     let append: Arg = Arg::with_name(APPEND_COMMAND)
-        .help("Set a string that will be printed before the quote.")
+        .help("Set a string that will be printed after the quote.")
         .long(APPEND_COMMAND)
         .short("a")
         .takes_value(true);
