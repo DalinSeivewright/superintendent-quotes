@@ -51,7 +51,7 @@ const PREPEND_COMMAND: &str = "prepend";
 const APPEND_COMMAND: &str = "append";
 
 fn main() {
-    let options = get_options();
+    let options: ArgMatches = get_options();
 
     if let Some(option_value) = options.value_of(PREPEND_COMMAND) {
         println!("{}", option_value);
