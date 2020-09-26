@@ -14,7 +14,7 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -a, --append <append>      Set a string that will be printed before the quote.
-    -p, --prepend <prepend>    Set a string that will be printed after the quote.
+    -p, --prepend <prepend>    Set a string that will be printed before the quote.
+    -a, --append <append>      Set a string that will be printed after the quote.
 ```
 
